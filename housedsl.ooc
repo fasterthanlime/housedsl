@@ -46,7 +46,6 @@ Floor: class {
     
     init: func (=number, f: Func(This)) {
         f(this)
-        rooms T = String
     }
     
     room: func (type: String) {

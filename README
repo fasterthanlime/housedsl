@@ -1,0 +1,14 @@
+A weak attempt at implementing a DSL (Domain-Specific Language) in ooc.
+
+It's very largely stolen, nay, inspired, from:
+
+http://yonkeltron.com/2010/05/13/creating-a-ruby-dsl/ (what did you expect?)
+
+However, I'm not entirely happy about it. At first I thought about using
+|this| instead of make to have calls like 'room()' instead of 'make room()'
+but rock didn't like that, and modifying it to support it would've been cheating..
+
+Although I'm pretty sure this can be improved upon with the current
+compiler versions, and I encourage everyone to try and beat me at it =)
+
+
